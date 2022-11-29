@@ -31,17 +31,11 @@ module.exports = {
       border_color: "#E8E8E8",
       red: "#FF6760",
       shadow_color: "rgba(16, 30, 115, 0.06)",
-      tabele_color: "rgba(232, 232, 232, .2)",
+      table_color: "rgba(232, 232, 232, .2)",
     },
     fontFamily: {
       lato: ["Lato"],
     },
-    backgroundImage: {
-      banner: "url('/components/assets/unConvertedSvgs/banners.svg')",
-    },
-  },
-  variants: {
-    backgroundColor: ["responsive", "hover", "focus", "active"],
   },
   plugins: [require("@tailwindcss/forms")],
 };

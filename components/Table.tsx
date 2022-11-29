@@ -22,7 +22,7 @@ export const AppointmentTable = ({ data }: TableProps) => {
       </h4>
       <div className="w-full mb-3 overflow-x-scroll">
         <table className="w-full">
-          <thead className="bg-tabele_color ">
+          <thead className="bg-table_color ">
             <tr className="border-b border-border_color ">
               <th
                 scope="col"
